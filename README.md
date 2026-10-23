@@ -145,7 +145,7 @@ Numbers must have digits on both sides of the decimal point. Leading dots (`.5`)
 .
 ├── src/
 │   ├── main.ts                  # CLI entry point (not implemented yet)
-│   └── parser/
+│   └── engine/
 │       └── lexer/
 │           ├── lexer.ts         # Lexer implementation and LexError
 │           ├── lexer.types.ts   # Token and Position types

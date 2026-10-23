@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { isAlpha, isDigit, isWhiteSpace } from "./lexer";
+import { isAlpha, isDigit, isWhiteSpace } from "./utils";
 
 const SYMBOLS = [
 	"!",
